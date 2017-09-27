@@ -30,7 +30,7 @@ public class New_project_Activity extends Activity {
     private static final int RESULT_PICK_IMAGEFILE = 1001;
     private ImageView imgView;
 
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
