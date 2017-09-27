@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/not_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:text="キャンセル"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/select_btn" />
+
+    <Button
+        android:id="@+id/go_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作成"
+        android:layout_alignBaseline="@+id/not_btn"
+        android:layout_alignBottom="@+id/not_btn"
+        android:layout_toEndOf="@+id/select_btn"
+        android:layout_marginStart="11dp" />
+
+    <Button
+        android:id="@+id/select_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="画像を選ぶ"
+        android:layout_above="@+id/not_btn"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/not_btn"
+        android:layout_alignEnd="@+id/go_btn" />
+</RelativeLayout>
