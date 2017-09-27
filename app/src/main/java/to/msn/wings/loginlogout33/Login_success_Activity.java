@@ -24,7 +24,7 @@ public class Login_success_Activity extends Activity {
 
     TextView textView;
 
-
+//noda
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +78,8 @@ public class Login_success_Activity extends Activity {
     }
 
 
-
+//noda
+    //sakawa
 
 
 
